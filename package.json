@@ -1,0 +1,48 @@
+{
+  "name": "ms-until-hour",
+  "version": "1.0.0",
+  "description": "Accepts a date object and returns the number of milliseconds until the requested hour",
+  "main": "lib/ms-until-hour.js",
+  "scripts": {
+    "compile": "babel src/ms-until-hour.js --out-file lib/ms-until-hour.js",
+    "prepublish": "npm run compile",
+    "test": "cross-env NODE_ENV=test nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-rhys-jones/ms-until-hour.git"
+  },
+  "keywords": [
+    "milliseconds",
+    "hour",
+    "time",
+    "ms",
+    "until"
+  ],
+  "author": "matt-rhys-jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt-rhys-jones/ms-until-hour/issues"
+  },
+  "homepage": "https://github.com/matt-rhys-jones/ms-until-hour#readme",
+  "nyc": {
+    "require": [
+      "babel-register"
+    ],
+    "sourceMap": false,
+    "instrument": false
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-istanbul": "^4.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.0.2",
+    "cross-env": "^5.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "mocha-cli": "^1.0.1",
+    "nyc": "^11.0.2"
+  }
+}
