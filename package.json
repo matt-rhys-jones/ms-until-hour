@@ -2,9 +2,9 @@
   "name": "ms-until-hour",
   "version": "1.0.0",
   "description": "Accepts a date object and returns the number of milliseconds until the requested hour",
-  "main": "lib/ms-until-hour.js",
+  "main": "index.js",
   "scripts": {
-    "compile": "babel src/ms-until-hour.js --out-file lib/ms-until-hour.js",
+    "compile": "babel ./src/ms-until-hour.js --out-file ./index.js",
     "prepublish": "npm run compile",
     "test": "cross-env NODE_ENV=test nyc mocha"
   },
@@ -38,6 +38,7 @@
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-istanbul": "^4.1.4",
     "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
     "chai": "^4.0.2",
     "cross-env": "^5.0.1",
     "istanbul": "^0.4.5",

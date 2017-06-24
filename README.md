@@ -1,3 +1,5 @@
+![](https://travis-ci.org/matt-rhys-jones/ms-until-hour.svg?branch=master)
+
 # Get the number of milliseconds until a given hour
 
 Lightweight helper to get the number of milliseconds from a given date until the hour you specify. Particularly handy for scheduling a `setTimeout()`.
@@ -25,9 +27,9 @@ msFromNowUntil3am = msUntilHour(new Date(), 19)
 Please raise a Github issue if you spot any problems.
 
 ## Contributing
+Feel free to submit issues, fixes or new features (ms-until-minute would be nice...):
+
 - `npm run compile` - transpile from `src` to `lib`
 - `npm test` - run mocha with code coverage output
 
 Please include tests with any contributions.
-
-If you want to contribute:
