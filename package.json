@@ -1,7 +1,7 @@
 {
   "name": "ms-until-hour",
-  "version": "1.0.1",
-  "description": "Accepts a date object and returns the number of milliseconds until the requested hour",
+  "version": "1.0.2",
+  "description": "Accepts a date object and returns the number of milliseconds until a given hour",
   "main": "index.js",
   "scripts": {
     "compile": "babel ./src/ms-until-hour.js --out-file ./index.js",

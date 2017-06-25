@@ -12,7 +12,8 @@ Lightweight helper to get the number of milliseconds from a given date until the
 
 ```javascript
 const msUntilHour = require('ms-until-hour')
-msFromNowUntil3am = msUntilHour(new Date(), 3)
+
+msUntilHour(new Date(), 3)
 ```
 
 If the current time is 2:20am then this will return `2400000` (40 minutes * 60 seconds * 1000ms).
@@ -21,7 +22,8 @@ If the current time is 2:20am then this will return `2400000` (40 minutes * 60 s
 
 ```javascript
 const msUntilHour = require('ms-until-hour')
-msFromNowUntil7pm = msUntilHour(new Date(), 19)
+
+msUntilHour(new Date(), 19)
 ```
 ...you get the idea!
 
