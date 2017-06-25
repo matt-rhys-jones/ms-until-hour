@@ -20,7 +20,7 @@
     "until"
   ],
   "author": "matt-rhys-jones",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/matt-rhys-jones/ms-until-hour/issues"
   },
