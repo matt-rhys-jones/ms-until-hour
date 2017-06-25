@@ -5,7 +5,7 @@
 Lightweight helper to get the number of milliseconds from a given date until the hour you specify. Particularly handy for scheduling a `setTimeout()`.
 
 ## Usage Example
-
+**Install**
 `npm install ms-until-hour`
 
 **Return the number of milliseconds between now and 3:00am (03:00):**
