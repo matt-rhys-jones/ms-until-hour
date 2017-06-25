@@ -1,6 +1,6 @@
 {
   "name": "ms-until-hour",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Accepts a date object and returns the number of milliseconds until the requested hour",
   "main": "index.js",
   "scripts": {
